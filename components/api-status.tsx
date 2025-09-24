@@ -29,7 +29,7 @@ export function ApiStatus({ isProcessing, isFallback = false }: ApiStatusProps) 
     <div className="flex items-center gap-2 text-xs text-gray-500 animate-pulse">
       <div className={`w-2 h-2 ${isFallback ? "bg-yellow-500" : "bg-green-500"} rounded-full`}></div>
       <span>
-        {isFallback ? "MSAI Fallback System" : "GPT-4 Shona API"} processing{dots}
+        {isFallback ? "MSAI Fallback System" : "GPT-4o Mini Shona API"} processing{dots}
       </span>
     </div>
   )

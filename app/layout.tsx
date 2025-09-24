@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "MSAI - Milton's Shona Artificial Intelligence",
   description: "Talk to AI in Shona language. Ask questions, get help, and learn new things.",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

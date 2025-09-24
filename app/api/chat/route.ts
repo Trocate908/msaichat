@@ -19,12 +19,12 @@ export async function POST(request: NextRequest) {
     }
 
     let result
-    let source = "GPT-4 Shona API"
+    let source = "GPT-4o Mini Shona API"
     let usedFallback = false
 
     try {
       // Try the external API first
-      const apiUrl = `https://apis.davidcyriltech.my.id/ai/gpt4?text=${encodeURIComponent(apiMessage)}`
+      const apiUrl = `https://apis.davidcyriltech.my.id/ai/gpt4omini?text=${encodeURIComponent(apiMessage)}`
 
       const startTime = Date.now()
       const response = await fetch(apiUrl, {

@@ -30,7 +30,7 @@ export default function Home() {
                     </Button>
                   </Link>
                   <Link href="/about">
-                    <Button variant="outline" className="px-8">
+                    <Button variant="outline" className="px-8 bg-transparent">
                       Dzidza Zvimwe
                       <span className="sr-only">Learn More</span>
                     </Button>
@@ -148,11 +148,11 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">GPT-4 Shona API</h3>
+                  <h3 className="text-xl font-bold">GPT-4o Mini Shona API</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Inoshandisa GPT-4 API kuti inzwisise nekupindura muchiShona chaizvo.
+                    Inoshandisa GPT-4o Mini API kuti inzwisise nekupindura muchiShona chaizvo.
                     <span className="block mt-1 text-xs text-gray-500">
-                      (Uses GPT-4 API to understand and respond in authentic Shona.)
+                      (Uses GPT-4o Mini API to understand and respond in authentic Shona.)
                     </span>
                   </p>
                 </div>

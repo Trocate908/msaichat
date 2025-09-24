@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
     const { message } = await request.json()
 
     // Direct call to the external API
-    const apiUrl = `https://apis.davidcyriltech.my.id/ai/gpt4?text=${encodeURIComponent(message)}`
+    const apiUrl = `https://apis.davidcyriltech.my.id/ai/gpt4omini?text=${encodeURIComponent(message)}`
 
     const response = await fetch(apiUrl)
 
